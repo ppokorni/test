@@ -1,4 +1,6 @@
-Good bye world!
+Hello world!
+
+Goodbye nice world!
 
 Written by moonpeople gang
 
