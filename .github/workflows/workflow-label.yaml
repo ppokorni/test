@@ -1,0 +1,14 @@
+name: Event testing
+on:
+  issues:
+    types:
+      - opened
+
+
+jobs:
+  output-event-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output GitHub context
+        id: github_context_step
+        run: echo "Trigger - ${{ github.event_name }}, user - ${{ github.actor }}, date - ${{ github.event_date }}" 
