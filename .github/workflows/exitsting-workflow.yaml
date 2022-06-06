@@ -14,5 +14,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           header: "Header"
-          subhead: "Update readme"
+          subhead: "Latest issue closed by: ${{ github.actor }}"
           footer: ""
