@@ -16,3 +16,4 @@ jobs:
           header: "Header"
           subhead: "Latest issue closed by: ${{ github.actor }}"
           footer: ""
+          repoCount: 0
